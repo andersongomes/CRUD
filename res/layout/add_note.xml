@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/write_a_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/note_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/write_a_note"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#61399D" />
+
+    <EditText
+        android:id="@+id/note_text"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/write_a_note"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save_note_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/note_text"
+        android:layout_below="@+id/note_text"
+        android:layout_marginTop="16dp"
+        android:text="@string/save"
+        android:textColor="#61399D"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/new_note_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/new_note_text"
+        android:layout_alignRight="@+id/old_note_input"
+        android:layout_below="@+id/new_note_text"
+        android:ems="10" 
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/old_note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/old_note_input"
+        android:layout_centerVertical="true"
+        android:text="@string/old_note_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#61399D"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/old_note_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/save_note_button"
+        android:layout_alignRight="@+id/note_text"
+        android:layout_below="@+id/old_note_text"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/new_note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/old_note_input"
+        android:layout_below="@+id/old_note_input"
+        android:text="@string/new_note_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#61399D"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/new_note_input"
+        android:layout_below="@+id/new_note_input"
+        android:layout_marginTop="14dp"
+        android:text="@string/update"
+        android:textColor="#61399D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/update_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/old_note_text"
+        android:layout_alignLeft="@+id/old_note_text"
+        android:layout_marginBottom="18dp"
+        android:text="@string/update_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#61399D" />
+
+</RelativeLayout>

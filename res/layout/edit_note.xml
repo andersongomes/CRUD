@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000044"
+    android:orientation="vertical" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/note_title"
+            android:text="@string/nota"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/note_text"
+            android:inputType="text"
+            android:width="240dp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ImageButton
+            android:id="@+id/btCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cancelar"
+            android:src="@drawable/cancelar"
+            android:text="@string/cancelar" />
+        <ImageButton
+            android:id="@+id/btSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/salvar"
+            android:src="@drawable/salvar"
+            android:text="@string/salvar" />
+        <ImageButton
+            android:id="@+id/btDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/deletar"
+            android:src="@drawable/deletar"
+            android:text="@string/deletar" />
+    </LinearLayout>
+
+</TableLayout>

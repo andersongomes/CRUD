@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CRUD</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Listagem</string>
+    <string name="add">ADD/EDITAR</string>
+    <string name="no_notes">Nenhuma Anotação</string>
+    <string name="write_a_note">Escreva uma Anotação</string>
+    <string name="save">Salvar</string>
+    <string name="delete">Excluir</string>
+     <string name="update">Editar</string>
+    <string name="delete_text">Digite o Texto da Nota a Ser Excluída</string>
+    <string name="old_note_text">Digite o Texto da Nota a Ser Editada</string>
+    <string name="new_note_text">Digite o Novo Texto da Nota</string>
+    <string name="update_text">Editar Nota</string>
+    <string name="splash">Splash Scream</string>
+    <string name="listagem">Listagem</string>
+    
+    
+    <string name="nota">Nota:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="deletar">Excluir</string>
+   
+    
+    
+    
+</resources>
